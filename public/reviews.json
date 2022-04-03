@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "michel curettes",
+    "designation": "Project Manager",
+    "review": "Wow! so fantastic technology I ever seen this is awesome and well made. And working as my mind. Really love them recommended for everyone whose need this kind of technologies just awesome. mind blowing.",
+    "ratings": 5,
+    "avatar": "https://static.toiimg.com/photo/83890821/83890821.jpg?v=3"
+  },
+  {
+    "id": 2,
+    "name": "David Warner",
+    "designation": "Web Dev",
+    "review": "It's good enough for I am really disappointed to see many kind of features which one is very unnecessary for my perspective and another all the options is perfectly working and wel maintain. recommended!!",
+    "ratings": 4,
+    "avatar": "https://images.assetsdelivery.com/compings_v2/luismolinero/luismolinero1909/luismolinero190917934.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Naimur Rahman",
+    "designation": "front-end dev",
+    "review": "The four stars are for the box, the movies deserved a 5 stars if not more. I thought that for the price and knowing that this is from Criterion the box would be better but it’s just a soft and slim cardboard box, be careful with it or all the individual cases will move and fall.",
+    "ratings": 5,
+    "avatar": "https://thumbs.dreamstime.com/b/businessman-icon-image-male-avatar-profile-vector-glasses-beard-hairstyle-179728610.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Asad Islam",
+    "designation": "Student",
+    "review": "Product quality is pretty good. Premium design and material with authentic Arctic Hunter branding. If budget is not a issue instead want to get a quality product, go for it. Seller is trustworthy enough. ",
+    "ratings": 4,
+    "avatar": "https://media.istockphoto.com/photos/portrait-of-a-handsome-black-man-picture-id1289461328?b=1&k=20&m=1289461328&s=170667a&w=0&h=SpRhSvRMO7UkXWo52mV9bf0bo6au6kC-2wsOGsQ0D2Y="
+  },
+  {
+    "id": 5,
+    "name": "Jhonson Rock",
+    "designation": "Junior dev",
+    "review": "Everything is good. Especially the cover on the chain. Love it. Delivery was decent.Recommend. This Product will meet your expectations.",
+    "ratings": 5,
+    "avatar": "https://i.pinimg.com/564x/e2/29/5f/e2295f7b9b470f873d0cc4b088ac0726.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Rahul Buiyan",
+    "designation": "Project Manager",
+    "review": "Fabulous!!! It has chamber for every use i.e. Laptop, Tablet, Mobile, PowerBank, Note Book, Pen, Water bottle. Audio Jack & USB port.  & in middle there is big space.",
+    "ratings": 4,
+    "avatar": "https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Abir Mahmud",
+    "designation": "Asst. engineer",
+    "review": "Excellent quality. Absolutely worth the money. If you are looking for official/corporate bag like this, you will have a blast with it. It's good for carrying all sorts of devices. Wouldn't recommend for carrying clothes like stuff as it's not designed to carry them.",
+    "ratings": 5,
+    "avatar": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+  },
+  {
+    "id": 8,
+    "name": "Sajjad Khan",
+    "designation": "Student",
+    "review": "good product quality. vary exclusive design and option.",
+    "ratings": 5,
+    "avatar": "https://thumbs.dreamstime.com/b/portrait-handsome-smiling-young-man-folded-arms-smiling-joyful-cheerful-men-crossed-hands-isolated-studio-shot-172869765.jpg"
+  }
+]
