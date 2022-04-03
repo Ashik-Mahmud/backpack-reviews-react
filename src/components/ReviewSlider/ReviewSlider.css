@@ -13,7 +13,7 @@
 .title h2 {
   font-size: 2.5rem;
 }
-#review-slider .reviews-content {
+.reviews-content {
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
