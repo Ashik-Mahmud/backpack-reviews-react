@@ -1,5 +1,6 @@
 /* review */
-.review-title {
+.review-title,
+.dashboard-title {
   position: relative;
   padding: 0.6rem 1rem;
   background: #f8f8f8;
