@@ -1,0 +1,29 @@
+#header {
+  position: relative;
+}
+#header nav {
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+  z-index: 1;
+  position: fixed;
+  backdrop-filter: blur(5px);
+  padding: 1.5rem 2rem;
+  border-radius: 50px;
+  box-shadow: 0px 0px 14px #00000012;
+}
+#header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+#header nav a {
+  color: #333;
+  text-transform: capitalize;
+  font-size: 1.051rem;
+}
+#header nav a.active {
+  color: var(--primary-color);
+}
