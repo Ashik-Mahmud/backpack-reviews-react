@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ReviewsContext } from "../../../App";
 import Review from "./../../Review/Review";
 import "./Reviews.css";
 const Reviews = () => {
+  const { reviews } = useContext(ReviewsContext);
   return (
     <section id="reviews">
       <div className="container">
@@ -10,22 +12,9 @@ const Reviews = () => {
           <p>Get all the reviews which one say people about my product</p>
         </div>
         <div className="reviews-content">
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
-          <Review />
+          {reviews.map((review) => (
+            <Review key={review.id} review={review} />
+          ))}
         </div>
       </div>
     </section>

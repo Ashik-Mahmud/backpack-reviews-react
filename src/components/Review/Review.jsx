@@ -1,40 +1,38 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
 import "./Review.css";
-const Review = () => {
+const Review = ({ review }) => {
+  const { name, designation, avatar, ratings, review: reviewText } = review;
+
+  let starsCount = [];
+  for (let i = 0; i < ratings; i++) {
+    starsCount.push(i);
+  }
+
   return (
     <div className="review">
       <div className="customer">
         <div className="avatar">
-          <img
-            src="https://t4.ftcdn.net/jpg/02/14/74/61/360_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg"
-            alt="review-avatar"
-          />
+          <img src={avatar} alt={name} />
         </div>
         <div className="avatar-details">
           <div className="info">
-            <h4>Ashik Mahmud </h4>
-            <small> Web Dev</small>
+            <h4>{name} </h4>
+            <small> {designation}</small>
           </div>
           <div className="ratings">
             <div className="stars">
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
+              {starsCount.map((count) => (
+                <AiFillStar key={count} />
+              ))}
             </div>
-            <span>5</span>
+            <span>{ratings}</span>
           </div>
         </div>
       </div>
 
       <div className="review-text">
-        <p>
-          Fabulous!!! It has chamber for every use i.e. Laptop, Tablet, Mobile,
-          PowerBank, Note Book, Pen, Water bottle. Audio Jack & USB port. & in
-          middle there is big space.
-        </p>
+        <p>{reviewText}</p>
       </div>
     </div>
   );
