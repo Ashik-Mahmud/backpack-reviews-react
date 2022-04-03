@@ -1,0 +1,42 @@
+/* review slider  */
+
+#review-slider {
+  position: relative;
+  padding: 2rem 0rem;
+  margin-bottom: 6rem;
+}
+.title {
+  text-align: center;
+  margin: 0.5rem 0rem;
+  position: relative;
+}
+.title h2 {
+  font-size: 2.5rem;
+}
+#review-slider .reviews-content {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 2rem;
+  margin: 3rem 0rem;
+}
+.see-all-btn {
+  text-align: center;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.see-all-btn button {
+  position: relative;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 0.4rem 1rem;
+  font-family: "poppins";
+  border-radius: 4px;
+}
+@media (max-width: 600px) {
+  #review-slider .reviews-content {
+    grid-template-columns: 1fr;
+  }
+}
