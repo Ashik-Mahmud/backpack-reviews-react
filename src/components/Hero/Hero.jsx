@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Hero.css";
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <div className="hero">
       <div className="container">
@@ -18,7 +19,9 @@ const Hero = () => {
                 checkout
               </Link>
             </p>
-            <button>Get Analytics</button>
+            <button onClick={() => navigate("/dashboard")}>
+              Get Analytics
+            </button>
           </div>
           <div className="hero-image">
             <img
