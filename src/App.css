@@ -3,3 +3,6 @@
   max-width: min(100% - 2rem, 1270px);
   margin-inline: auto;
 }
+.colorize {
+  color: var(--primary-color);
+}

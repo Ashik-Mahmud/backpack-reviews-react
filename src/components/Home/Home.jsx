@@ -1,11 +1,10 @@
 import React from "react";
+import Hero from "../Hero/Hero";
 import "./Home.css";
 const Home = () => {
   return (
     <section id="home">
-      <div className="container">
-        <h1>Home</h1>
-      </div>
+      <Hero />
     </section>
   );
 };

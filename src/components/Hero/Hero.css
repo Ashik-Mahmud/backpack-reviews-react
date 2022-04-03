@@ -1,0 +1,55 @@
+/* hero  */
+.hero {
+  position: relative;
+  min-height: 90vh;
+  place-items: center;
+  display: grid;
+}
+
+.hero .hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.hero-content .hero-text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 1rem 0rem;
+}
+.hero-content .hero-text p {
+  line-height: 1.7;
+}
+.hero-text a {
+  margin: 0rem 0.3rem;
+}
+
+.hero-text button {
+  position: relative;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  outline: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  margin: 1rem 0rem;
+  font-size: 1rem;
+  font-family: "poppins";
+}
+
+@media (max-width: 1100px) {
+  .hero-content .hero-text h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .hero-content .hero-text h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .hero-content {
+    flex-direction: column;
+    padding: 3rem 0rem;
+  }
+}
