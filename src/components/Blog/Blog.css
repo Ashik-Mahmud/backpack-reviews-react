@@ -26,6 +26,7 @@
 .blog .blog-details p {
   font-size: 0.9rem;
   line-height: 1.7;
+  text-align: justify;
   color: #333;
 }
 .blog span {

@@ -12,3 +12,11 @@
   margin: 1rem 0rem;
   color: var(--primary-color);
 }
+@media (max-width: 600px) {
+  #dashboard .chart-row {
+    grid-template-columns: 1fr;
+  }
+  .chart-col.span {
+    grid-column: span 1;
+  }
+}

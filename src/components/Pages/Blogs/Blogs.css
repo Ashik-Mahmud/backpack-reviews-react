@@ -8,3 +8,12 @@
   grid-gap: 1rem;
   margin: 3rem 0rem;
 }
+
+@media (max-width: 680px) {
+  #blogs .blog-container {
+    grid-template-columns: 1fr;
+  }
+  #blogs {
+    margin-bottom: 13rem;
+  }
+}

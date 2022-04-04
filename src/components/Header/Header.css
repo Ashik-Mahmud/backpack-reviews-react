@@ -32,4 +32,7 @@
   #header nav ul {
     gap: 1rem;
   }
+  #header nav {
+    width: calc(100% - 2rem);
+  }
 }
