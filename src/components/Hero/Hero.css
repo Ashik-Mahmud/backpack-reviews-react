@@ -1,9 +1,9 @@
 /* hero  */
 .hero {
   position: relative;
-  min-height: 90vh;
   place-items: center;
   display: grid;
+  padding: 5rem 0rem;
 }
 
 .hero .hero-content {
@@ -48,8 +48,17 @@
   }
 }
 @media (max-width: 600px) {
+  .hero {
+    padding: 1rem 0rem;
+  }
   .hero-content {
     flex-direction: column;
     padding: 3rem 0rem;
+  }
+  .hero-text {
+    order: 2;
+  }
+  .hero-image {
+    order: 1;
   }
 }

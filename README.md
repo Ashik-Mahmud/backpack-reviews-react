@@ -1,4 +1,4 @@
-# Reviews Product using React
+# React BackPack Reviews App
 
 this is simple react application using react js and another dependencies. if you have an any idea then better that it. please feel free to share if you have any suggestion about this project please share. And if you want to contribute it feel free to do that.
 
