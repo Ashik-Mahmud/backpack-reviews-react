@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Fade } from "react-reveal";
 import { useNavigate } from "react-router-dom";
 import { ReviewsContext } from "../../App";
 import Review from "../Review/Review";
@@ -10,12 +11,14 @@ const ReviewSlider = () => {
   return (
     <section id="review-slider">
       <div className="container">
-        <div className="title">
-          <h2>
-            Top <span className="colorize">Reviews</span>
-          </h2>
-          <p>Our custom says about my products</p>
-        </div>
+        <Fade top distance="30px">
+          <div className="title">
+            <h2>
+              Top <span className="colorize">Reviews</span>
+            </h2>
+            <p>Our custom says about my products</p>
+          </div>
+        </Fade>
         <div className="reviews-content">
           {reviews.slice(0, 3).map((review) => (
             <Review key={review.id} review={review} />

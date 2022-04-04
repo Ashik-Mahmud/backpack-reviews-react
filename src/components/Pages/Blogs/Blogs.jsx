@@ -11,6 +11,7 @@ const Blogs = () => {
           <h2>Read Blog & Gether your Knowledge</h2>
           <p>Get knowledge to read bit of blog and spared around the world</p>
         </div>
+
         <div className="blog-container">
           {blogs.map((blog) => (
             <Blog key={blog.id} blog={blog} />

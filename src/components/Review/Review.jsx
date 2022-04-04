@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
+import { Fade } from "react-reveal";
 import "./Review.css";
 const Review = ({ review }) => {
   const { name, designation, avatar, ratings, review: reviewText } = review;
@@ -10,31 +11,33 @@ const Review = ({ review }) => {
   }
 
   return (
-    <div className="review">
-      <div className="customer">
-        <div className="avatar">
-          <img src={avatar} alt={name} />
-        </div>
-        <div className="avatar-details">
-          <div className="info">
-            <h4>{name} </h4>
-            <small> {designation}</small>
+    <Fade top distance="50px">
+      <div className="review">
+        <div className="customer">
+          <div className="avatar">
+            <img src={avatar} alt={name} />
           </div>
-          <div className="ratings">
-            <div className="stars">
-              {starsCount.map((count) => (
-                <AiFillStar key={count} />
-              ))}
+          <div className="avatar-details">
+            <div className="info">
+              <h4>{name} </h4>
+              <small> {designation}</small>
             </div>
-            <span>{ratings}</span>
+            <div className="ratings">
+              <div className="stars">
+                {starsCount.map((count) => (
+                  <AiFillStar key={count} />
+                ))}
+              </div>
+              <span>{ratings}</span>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="review-text">
-        <p>{reviewText}</p>
+        <div className="review-text">
+          <p>{reviewText}</p>
+        </div>
       </div>
-    </div>
+    </Fade>
   );
 };
 
