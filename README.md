@@ -25,7 +25,7 @@ this is simple react application using react js and another dependencies. if you
 - You can see analytics from dashboard page
 - Blog less/more option
 
-## To Live link [here](https://backpack-reviews.netlify.app/) && <https://backpack-reviews.netlify.app/>
+## To Live link [here](https://backpack-reviews.netlify.app/) || <https://backpack-reviews.netlify.app/>
 
 ![screenshot](./preview.png)
 

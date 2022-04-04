@@ -2,19 +2,19 @@
   {
     "id": 1,
     "question": "What's context Api?",
-    "answer": "Context api is a concept of react which one help you to avoid a hard and very annoying works props drilling. Which one introduce of react 16.8. If it's create a and pass the value which one we need to use in the another components using values attributes",
+    "answer": "Context api is a concept of react which one help you to avoid a hard and very annoying works props drilling. Which one introduce of react 16.3 it allows to share data component to another component efficiently. It will create a global variables on behind.That's the alternative of props drilling which I already told. If it's create a and pass the value which one we need to use in the another components using values attributes. Now how it's works? it's look like React.createContext() which one returns two values like Provider, Consumer. Provider basically provide a data and help to share all the wrapping component which one wrap of this context. Consumer did of alternative of Provider. Consumer can get values which one already pass on provider. but now this is time react has dedicated hooks called useContext() to getting values of context.",
     "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--Qj17HL0m--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/emdosd9tj8bfly5is35y.png"
   },
   {
     "id": 2,
     "question": "What is semantic Tags?",
-    "answer": "Sematic tags is a HTML5 concept which one help you to dedicate of your section and it's really help to search engine optimization and we accessibility, there are tons of semantic tags has like header, footer, section, nav, video, audio and many more it's all about sematic tags which one introduced of HTML5",
+    "answer": "Sematic tags is a HTML5 concept which one help you to indicate of our section and describes itself. It's really help to search engine optimization and web accessibility, there are tons of semantic tags has like header, footer, section, nav, video, audio, form, table, article and many more it's all about sematic tags which one introduced of HTML5",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbwvQH_da4WjvlqSfKT4_QAGvfJ84XlmHXuA&usqp=CAU"
   },
   {
     "id": 3,
-    "question": "What is inline, inline-block, block?",
-    "answer": "This is a display of css it's all the concept called values if any div has inline it's just get a fit-content area which one is need for them only, if it's a block label that's why it will take whole the area of this line",
+    "question": "What is difference between inline, inline-block, block?",
+    "answer": "This is a display properties is indicate where elements display inside of app if any element is inline that's width and height no effect of this elements and it's not start new line and also not takes a full area instead it just take fit content area which one need for it. And on the other hand inline-block elements can set height, width and it's behavior like inline level of block container. And the last one is block elements block elements it's completely difference between others it start on new line and takes whole the area of line and you also can put width height.",
     "image": "https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2019/05/21113757/display-inline-block-css.png"
   }
 ]
