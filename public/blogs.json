@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "question": "What's context Api?",
+    "answer": "Context api is a concept of react which one help you to avoid a hard and very annoying works props drilling. Which one introduce of react 16.8. If it's create a and pass the value which one we need to use in the another components using values attributes",
+    "image": "https://miro.medium.com/max/629/1*YY77Pd-njjNlhNfxe5CkzA.png"
+  },
+  {
+    "id": 2,
+    "question": "What is semantic Tags?",
+    "answer": "Sematic tags is a HTML5 concept which one help you to dedicate of your section and it's really help to search engine optimization and we accessibility, there are tons of semantic tags has like header, footer, section, nav, video, audio and many more it's all about sematic tags which one introduced of HTML5",
+    "image": "https://i.ytimg.com/vi/YXCbjS2fxzU/maxresdefault.jpg"
+  },
+  {
+    "id": 3,
+    "question": "What is inline, inline-block, block?",
+    "answer": "This is a display of css it's all the concept called values if any div has inline it's just get a fit-content area which one is need for them only, if it's a block label that's why it will take whole the area of this line",
+    "image": "https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2019/05/21113757/display-inline-block-css.png"
+  }
+]
