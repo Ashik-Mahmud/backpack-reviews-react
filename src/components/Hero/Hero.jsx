@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="hero-text">
             <h3>Get you backPack now</h3>
             <h1>
-              Best Backpack <span className="colorize">Top Reviewed</span>
+              Best Backpack <span className="colorize">Top Reviews</span>
             </h1>
             <p>
               This is a top reviewed backpack of my shops If you want to check
