@@ -3,13 +3,13 @@
     "id": 1,
     "question": "What's context Api?",
     "answer": "Context api is a concept of react which one help you to avoid a hard and very annoying works props drilling. Which one introduce of react 16.8. If it's create a and pass the value which one we need to use in the another components using values attributes",
-    "image": "https://miro.medium.com/max/629/1*YY77Pd-njjNlhNfxe5CkzA.png"
+    "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--Qj17HL0m--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/emdosd9tj8bfly5is35y.png"
   },
   {
     "id": 2,
     "question": "What is semantic Tags?",
     "answer": "Sematic tags is a HTML5 concept which one help you to dedicate of your section and it's really help to search engine optimization and we accessibility, there are tons of semantic tags has like header, footer, section, nav, video, audio and many more it's all about sematic tags which one introduced of HTML5",
-    "image": "https://i.ytimg.com/vi/YXCbjS2fxzU/maxresdefault.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbwvQH_da4WjvlqSfKT4_QAGvfJ84XlmHXuA&usqp=CAU"
   },
   {
     "id": 3,

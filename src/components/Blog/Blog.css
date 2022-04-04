@@ -6,7 +6,7 @@
   border-radius: 5px;
 }
 .blog .image {
-  height: 100px;
+  height: 140px;
   overflow: hidden;
   position: relative;
   box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.087);
@@ -17,7 +17,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: left;
+  object-position: center;
 }
 .blog .blog-details {
   position: relative;
@@ -28,6 +28,6 @@
   line-height: 1.7;
   color: #333;
 }
-.blog small {
+.blog span {
   cursor: pointer;
 }

@@ -1,21 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Blog.css";
-const Blog = () => {
+const Blog = ({ blog }) => {
+  const { question, answer, image } = blog;
+  const [hide, setHide] = useState(false);
   return (
     <div className="blog">
       <div className="image">
-        <img
-          src="https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2019/05/21113757/display-inline-block-css.png"
-          alt="blog"
-        />
+        <img src={image} alt="blog" />
       </div>
       <div className="blog-details">
-        <h3>What is context api?</h3>
+        <h3>{question}</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-          molestias commodi eveniet architecto libero aliquid delectus, vel, sit
-          vitae, magni nemo aperiam voluptatibus iure. Dignissimos placeat amet
-          odit ratione expedita! <small className="colorize">see more</small>
+          {answer.length > 200 ? (
+            <>
+              {hide ? answer : answer.slice(0, 200)}
+              <span className="colorize" onClick={() => setHide(!hide)}>
+                {hide ? " see less" : " see more"}
+              </span>
+            </>
+          ) : (
+            answer
+          )}
         </p>
       </div>
     </div>
