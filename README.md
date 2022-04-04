@@ -27,6 +27,6 @@ this is simple react application using react js and another dependencies. if you
 
 ## To Live link [here](https://google.com)
 
-![imageScreenshotPreview]("./preview.png")
+![imageScreenshotPreview]("preview.png")
 
 > Thanks for reach out me on github.
