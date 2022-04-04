@@ -19,4 +19,24 @@
   .chart-col.span {
     grid-column: span 1;
   }
+  svg.recharts-surface {
+    width: 100%;
+  }
+
+  svg.recharts-surface {
+    width: 100%;
+  }
+
+  .recharts-wrapper {
+    width: 100%;
+  }
+
+  svg.recharts-surface {
+    width: 100% !important;
+  }
+
+  .recharts-wrapper {
+    text-align: center;
+    width: 100%;
+  }
 }
