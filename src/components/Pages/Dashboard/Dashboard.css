@@ -12,7 +12,13 @@
   margin: 1rem 0rem;
   color: var(--primary-color);
 }
+.tall-chart {
+  width: 1270px;
+}
 @media (max-width: 600px) {
+  .tall-chart {
+    width: 600px;
+  }
   #dashboard .chart-row {
     grid-template-columns: 1fr;
   }
